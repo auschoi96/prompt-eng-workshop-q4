@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %run ./init/config $catalog_name = $catalog_name
+# MAGIC %run ./config $catalog_name = $catalog_name
 
 # COMMAND ----------
 
