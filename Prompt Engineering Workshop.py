@@ -275,104 +275,46 @@ base_url = f'https://{spark.conf.get("spark.databricks.workspaceUrl")}/serving-e
 #The Article
 
 content = """
-THE OUTLOOK
-Economists Say Inflation Would Be Worse Under Trump Than Biden
-In a Wall Street Journal survey, economists see Trump’s plans to raise tariffs and crack down on illegal immigration as putting upward pressure on prices
+The last Tax Report delved into when it’s smart for seniors to convert taxable traditional IRAs to tax-free Roth IRAs. It prompted a flood of questions from Journal readers asking for more specifics, so we’ll address some of them.
 
-Former President Donald Trump has promised the largest deportation of unauthorized immigrants in history. PHOTO: REBECCA BLACKWELL/ASSOCIATED PRESS
-By Paul Kiernan and Anthony DeBarros
-July 11, 2024 9:00 pm ET
+Why does it make sense to do a Roth IRA conversion if that means paying taxes before they’re due and shrinking the investment amount? I was always taught to defer taxes as long as possible.
+Roth IRA conversions aren’t appropriate for all savers. But they often make sense for people with large traditional IRAs, which many have due to rollovers of traditional 401(k)s. 
 
-SHARE
+The key factor is the tax rate on the Roth IRA conversion amount vs. the tax rate on the funds at the time of withdrawal—tax arbitrage, if you will. If the rate on the conversion will be lower than the rate at withdrawal, conversion is often a smart move.
 
-TEXT
+What about “opportunity cost,” the idea that dollars used to pay conversion tax lose out on investment growth? This isn’t an issue if tax rates are the same at contribution and withdrawal. While the conversion tax is paid earlier, it’s also smaller—and the deferred tax on the traditional IRA grows as the funds do.
 
-Listen to article
-Length(7 minutes)
-Donald Trump loves to remind voters that President Biden has overseen the highest inflation in 40 years.
+Ed Slott, a Roth IRA advocate and CPA, offers a simplified example: Jane and Fred each have traditional IRAs with $100,000. These are invested identically and double over 10 years. The tax rate is 30%, so Jane pays $30,000 of tax to convert to a Roth IRA and has $70,000 to invest. At the end, she has $140,000 to withdraw tax-free.
 
-But don’t count on Trump, the presumptive Republican nominee for president, to bring inflation down faster than Biden if he wins the presidential election in November. 
+Newsletter Sign-up
 
-Most economists believe inflation, deficits and interest rates would be higher during a second Trump administration than if Biden remains in the White House, according to a quarterly survey of forecasters by The Wall Street Journal.
+Markets A.M.
 
-“I think there is a real risk that inflation will reaccelerate under a Trump presidency,” said Bernard Baumohl, chief global economist at the Economic Outlook Group. That would likely lead the Federal Reserve to set interest rates higher than if inflation continues its downward trajectory, he added.
-
-The Journal’s survey, conducted July 5-9, received responses from 68 professional forecasters from business, Wall Street and academia. Of the 50 who answered questions about Trump and Biden, 56% said inflation would be higher under another Trump term than a Biden term, versus 16% who said the opposite. The remainder saw no material difference.
-
-Federal-funds rate, midpoint of the range (actual​and forecasts)Source: Federal Reserve (actual); Wall Street Journal​surveys of economists (forecasts)
-ActualJuly '24 forecastApr '24 forecastJan '24 forecast2023'24'25'262.53.03.54.04.55.05.5%
-Biden is under growing pressure to step aside as the Democratic presidential nominee. But economists’ views of inflation and interest rates appear mostly driven by Trump’s policy preferences, in particular on trade and immigration. It is unlikely those assessments would change substantially with a different Democratic candidate. 
-
-Trump has proposed a 10% across-the-board tariff on imports and a 60% or higher tariff on imports from China. He has also promised the largest deportation of unauthorized immigrants in history, which might reduce the supply of labor in some industries.
-
-Biden has taken several steps to allow unauthorized immigrants to stay in the U.S. He has also issued executive actions aimed at reducing illegal crossings. 
-
-It also depends on Congress and courts
-It is impossible to know which of Trump’s or Biden’s policies will be implemented. That will depend on the makeup of Congress and other considerations, such as litigation. Trump’s plan to deport asylum seekers, for instance, would likely be challenged in court. 
-
-“It is hard to know, he says so many things that are so extreme,” said Joel Naroff, head of the consulting firm Naroff Economics, who sees higher inflation under Biden but higher deficits and interest rates under Trump. 
-
-Moreover, presidents generally have much less influence on the economy and inflation than the business cycle, external shocks such as to the price of oil and the Federal Reserve’s interest-rate policies.  
-
-Consumer-price index, year-over-year​percentage change (actual and forecasts)Source: Labor Department (actual); Wall Street Journal​surveys of economists (forecasts)
-ActualJuly '24 forecastApr '24 forecastJan '24 forecastJan. '23July '23Jan. '24June '24Dec. '26234567%
-Consumer prices have risen 19% since Biden took office in January 2021, fueled by a rush of government spending, some of it enacted under Trump; shortages of goods and labor; and supply-chain disruption in the wake of the pandemic. During Trump’s four years as president, prices increased 7.8%. 
-
-On Thursday, the Labor Department reported that year-over-year inflation as measured by the consumer-price index fell to 3% in June from 3.3% in May. Economists surveyed by the Journal expect it to ease to 2.8% by December and 2.3% by the end of next year. 
-
-On average, economists expect U.S. gross domestic product to expand 1.7% this year after inflation, down from 3.1% in 2023 (based on the fourth quarter compared with a year earlier); unemployment to remain slightly above 4% through 2026; and payrolls to expand by roughly 131,000 jobs a month over the next year. On average, they put the probability of recession in the coming 12 months at 28%. Forecasts changed little from the Journal’s last survey, in April, when economists saw 1.7% GDP growth this year and a 29% probability of recession. 
-
-Probability the U.S. is in a recession in next 12​months including todaySource: Wall Street Journal surveys of economistsNote: Average of economists' answers. Gaps indicate​question not asked or data unavailable.
-RECESSION50%2006'10'15'20020406080100%
-Differing tax plans drive deficit risks
-Fifty-one percent of economists anticipate larger federal budget deficits under a Trump presidency, compared with 22% under Biden. Early in his term in the White House, Trump and congressional Republicans cut individual, corporate and estate taxes. Some of those cuts expire at the end of 2025. Trump wants to extend all of them, whereas Biden would allow tax cuts for the wealthiest Americans to expire. He would also raise the corporate tax rate and increase several other taxes.
-
-Larger deficits tend to put upward pressure on inflation and interest rates; 59% of economists think rates would be higher under Trump, versus 16% under Biden. But several economists stressed that neither candidate has shown much interest in reining in deficits, particularly when his party controlled Congress.
-
-“I think we are very likely to be running large deficits regardless of who the next president is,” said Matthew Luzzetti, chief U.S. economist at Deutsche Bank Securities. “The bigger inflation difference is probably going to come from policies like trade.”
+A pre-markets primer packed with news, trends and ideas. Plus, up-to-the-minute market data.
 
 
-Inflation as measured by the consumer-price index slowed in June. PHOTO: SEONGJOON CHO/BLOOMBERG NEWS
-Deutsche Bank estimates a universal tariff of the sort Trump has outlined would increase overall prices by 1% to 2%. By contrast, high immigration in recent years might have reduced inflation by up to 0.5 percentage point by easing labor shortages after the pandemic, Luzzetti said. 
+Preview
 
-Some economists cited the risk that Trump will attempt to curb the Fed’s independence. During his first presidency, Trump often voiced frustration with Fed Chair Jerome Powell, who resisted his calls to reduce interest rates. A group of Trump’s allies are drawing up plans to give the president more say over monetary policy, the Journal has reported. 
+Subscribe
+Meanwhile, Fred doesn’t do a conversion, and his $100,000 pot grows to $200,000. But when he withdraws it, he owes $60,000 of tax. That leaves him with $140,000 after tax, the same as Jane.
 
-A few economists think another Biden term would bring higher inflation, deficits and interest rates—mainly because of Democrats’ penchant for government spending. Biden’s spending plans include an expanded child tax credit.
+What makes a Roth conversion smart or not is if the tax rates vary. If Jane’s tax rate on a Roth conversion is 20% but her tax rate at withdrawal is 30%, she’s likely a gainer. And if Fred’s tax rate on a conversion is 30% but his tax rate at withdrawal is 15%, he’s not. 
 
-Stephen Stanley, chief U.S. economist at Santander, sees less daylight between Democrats and Republicans on trade and immigration than four years ago. He noted that Trump failed to install loyalists to the Fed in 2019 because of objections in the Senate. Trump’s last two confirmed Fed nominees, Michelle Bowman and Christopher Waller, have generally been more inclined to raise interest rates than Biden’s picks.
+Of course, evaluating a Roth conversion forces savers to guess the future. But sometimes that’s not hard—say, if a saver will be moving from high-tax state to a low- or no-tax state. The death of a spouse can also subject the survivor to a “widow’s penalty,” leaving him or her with a higher top rate as a single filer.  
 
-“I take a lot of the more extreme things that I’ve seen with a grain of salt,” Stanley said. “The Trump policies move in the direction of higher inflation, all else equal, but I don’t think the difference is going to be stark.” 
+But savers using outside funds to pay the conversion tax in order to keep more dollars in the Roth IRA should consider their source. If the tax money is sitting in a low-interest account, using them to pay conversion tax could be smart. But if the saver will be selling stock and paying 15% on the capital gains, think more. Could selling a loser offset that tax?
 
-Write to Paul Kiernan at paul.kiernan@wsj.com and Anthony DeBarros at anthony.debarros@wsj.com
+Investment returns also matter, and that involves more guessing. The higher the returns are, the greater the Roth IRA’s advantage. In general, investors have done better by betting on long-term asset growth than against it.   
 
-Inflation and the Economy
-Analysis from The Wall Street Journal, selected by the editors
+I inherited a traditional IRA. Can I convert it to a Roth IRA? 
+You can, if you are the surviving spouse of the owner. This involves rolling funds from the inherited IRA into an IRA of your own and then doing a Roth conversion.  
 
-Milder Inflation Opens Door Wider to September Rate Cut
-Americans Hate Inflation—and That’s a Problem for the Fed
-How Inflation Has Hit Our Finances: 10 People Get Candid
-What $100 Will (and Won’t) Buy at the Supermarket Now
-WHAT TO READ NEXT
-U.S. ECONOMY
-Milder Inflation Opens Door Wider to September Rate Cut
-By Sam Goldfarb and Nick Timiraos
-JULY 11
-U.S. ECONOMY
-Powell Inches the Fed Closer to Cutting Rates
-By Nick Timiraos
-JULY 9
-U.S. ECONOMY
-Case for September Rate Cut Builds After Slower Jobs Data
-By Justin Lahart and Nick Timiraos
-JULY 5
-ECONOMY
-What’s Behind Powell’s Latest Shift on Rates
-By Nick Timiraos
-JULY 10
-THE OUTLOOK
-Crushing Debts Await Europe’s New Leaders
-By Tom Fairless
-JULY 7
+But most other heirs of traditional IRAs can’t do such conversions. And whether it’s a traditional or a Roth IRA, most heirs must drain the accounts within 10 years of the original owner’s death. 
+
+How does the five-year rule affect my Roth IRA withdrawals?   
+The five-year waiting period for tax-free Roth IRA withdrawals confuses many savers evaluating conversions. There are actually two five-year rules, but only one applies to people ages 59½ or older. The good news is that most older IRA owners won’t have trouble with it. Here’s a summary. 
+
+If a saver who is 59½ or older has at least one Roth IRA open for five years or more, there’s no five-year waiting period for tax-free withdrawals after a conversion. 
 """
 
 # COMMAND ----------
