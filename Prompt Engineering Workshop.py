@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %run ./config $catalog_name = $catalog_name
+# MAGIC %run ./config
 
 # COMMAND ----------
 
@@ -482,7 +482,7 @@ print(f"The LLM Output:\n\n {chat_completion.choices[0].message.content}")
 # MAGIC 4. It did not capture people's full names, Biden for Example 
 # MAGIC 5. It did not fill in names like for Biden, it did not add Joe. 
 # MAGIC
-# MAGIC Llama3 did singificantly better than DBRX in following my instructions but that is expected as Llama3 is a more performant LLM. 
+# MAGIC Llama3 did significantly better than DBRX in following my instructions but that is expected as Llama3 is a more performant LLM.
 
 # COMMAND ----------
 
@@ -611,7 +611,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-70b-instruct",
+  model="databricks-meta-llama-3-1-70b-instruct",
   max_tokens=1000,
   stop=["<|eot_id|>"],
   top_p=0.1,
@@ -804,7 +804,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-70b-instruct",
+  model="databricks-meta-llama-3-1-70b-instruct",
   max_tokens=1000,
   stop=["<|eot_id|>"],
   top_p=0.1,
@@ -957,7 +957,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-70b-instruct",
+  model="databricks-meta-llama-3-1-70b-instruct",
   max_tokens=1000,
   top_p=0.1,
   temperature=0.1,
