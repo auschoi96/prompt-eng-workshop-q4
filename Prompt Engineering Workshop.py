@@ -11,6 +11,14 @@ base_url = f'https://{spark.conf.get("spark.databricks.workspaceUrl")}/serving-e
 
 # COMMAND ----------
 
+base_url = f'https://{spark.conf.get("spark.databricks.workspaceUrl")}/serving-endpoints'
+
+# COMMAND ----------
+
+base_url
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC #Introduction
 # MAGIC
@@ -250,12 +258,20 @@ base_url = f'https://{spark.conf.get("spark.databricks.workspaceUrl")}/serving-e
 # MAGIC SELECT
 # MAGIC   `Misspelled Make`,   -- Placeholder for the input column
 # MAGIC   ai_query(
-# MAGIC     'databricks-meta-llama-3-1-70b-instruct',
+# MAGIC     'databricks-meta-llama-3-3-70b-instruct',
 # MAGIC     CONCAT(format_string('You will always receive a make of a car. Check to see if it is misspelled and a real car. Correct the mistake. Only provide the corrected make. Never add additional details'), `Misspelled Make`)    -- Placeholder for the prompt and input
 # MAGIC   ) AS ai_guess  -- Placeholder for the output column
-# MAGIC FROM main.aus_choi_sandbow.synthetic_car_data
+# MAGIC FROM austin_choi_demo_catalog.demo_data.synthetic_car_data
 # MAGIC Limit 3;  -- Placeholder for the table name
 # MAGIC
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### vector_search
+# MAGIC The ai_query() function allows you to using Databricks' vector search capability built into our SQL functions!
+# MAGIC
+# MAGIC Documentation: https://docs.databricks.com/en/large-language-models/ai-functions.html#vector_search
 
 # COMMAND ----------
 
@@ -405,7 +421,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-1-70b-instruct",
+  model="databricks-meta-llama-3-3-70b-instruct",
   max_tokens=1000,
   top_p=0.1,
   temperature=0.1,
@@ -553,7 +569,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-1-70b-instruct",
+  model="databricks-meta-llama-3-3-70b-instruct",
   max_tokens=1000,
   stop=["<|eot_id|>"],
   top_p=0.1,
@@ -746,7 +762,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-1-70b-instruct",
+  model="databricks-meta-llama-3-3-70b-instruct",
   max_tokens=1000,
   stop=["<|eot_id|>"],
   top_p=0.1,
@@ -899,7 +915,7 @@ chat_completion = client.chat.completions.create(
     "content": content
   }
   ],
-  model="databricks-meta-llama-3-1-70b-instruct",
+  model="databricks-meta-llama-3-3-70b-instruct",
   max_tokens=1000,
   top_p=0.1,
   temperature=0.1,
@@ -980,7 +996,7 @@ fmapi_base_url = (
 )
 
 openai_client = OpenAI(api_key=fmapi_token, base_url=fmapi_base_url)
-MODEL_ENDPOINT_ID = "databricks-meta-llama-3-1-70b-instruct"
+MODEL_ENDPOINT_ID = "databricks-meta-llama-3-3-70b-instruct"
 
 prompt = """You are a pokemon master and know every single pokemon ever created by the Pokemon Company. You will be helping people answer questions about pokemon. Stick strictly to the information provided to you to answer the question"""
 
@@ -1212,7 +1228,7 @@ chat_completion = client.chat.completions.create(
     "content": question
   }
   ],
-  model="databricks-meta-llama-3-1-70b-instruct",
+  model="databricks-meta-llama-3-3-70b-instruct",
   max_tokens=2000,
   top_p=0.1,
   temperature=0.1,
@@ -1232,4 +1248,5 @@ Markdown(f"**The LLM Output:**\n\n {chat_completion.choices[0].message.content}"
 # MAGIC Thus, RAG was created and continues to be a powerful method to augment and design GenAI applications
 
 # COMMAND ----------
+
 
