@@ -268,20 +268,6 @@ base_url
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### vector_search
-# MAGIC The ai_query() function allows you to using Databricks' vector search capability built into our SQL functions!
-# MAGIC
-# MAGIC Documentation: https://docs.databricks.com/en/large-language-models/ai-functions.html#vector_search
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC SELECT *
-# MAGIC FROM VECTOR_SEARCH(index => 'ali_azzouz.rag_chatbot.databricks_documentation_vs_index', query => '{"message LIKE": "mkl"}')
-
-# COMMAND ----------
-
-# MAGIC %md
 # MAGIC ###Below is the WSJ article we will use for the example exercises
 # MAGIC
 # MAGIC Run the cell
@@ -1246,7 +1232,3 @@ Markdown(f"**The LLM Output:**\n\n {chat_completion.choices[0].message.content}"
 # MAGIC We can do a lot more if we could find relevant information based on the task or question brought up by a user. These models have enough of a context window to add a lot more information into the prompt. 
 # MAGIC
 # MAGIC Thus, RAG was created and continues to be a powerful method to augment and design GenAI applications
-
-# COMMAND ----------
-
-
